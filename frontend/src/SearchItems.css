@@ -1,0 +1,53 @@
+.search-items-container {
+    padding: 20px;
+}
+
+.search-bar input {
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.categories-filter {
+    margin-bottom: 20px;
+}
+
+.categories-filter label {
+    display: block;
+    margin: 5px 0;
+}
+
+.items-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.items-list :hover{
+    background-color: #ddd;
+    color: black;
+    transform: scale(1.05); 
+    transition: all 0.2s ease; 
+
+}
+.item-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.item-card h3 {
+    margin: 10px 0;
+}
+
+.item-card p {
+    margin: 5px 0;
+}
+
