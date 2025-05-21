@@ -1,5 +1,5 @@
 # Buy-Sell Website
-The website is built using the MERN stack:
+The website is built using MERN stack:
 
 * MongoDB for the database
 * Express.js for the backend 
