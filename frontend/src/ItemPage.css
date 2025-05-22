@@ -1,0 +1,40 @@
+.item-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #ddd;
+  }
+  
+  .item-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .item-info, .seller-info {
+    width: 45%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: #dddddd;
+    h2{
+      color: #ddd;
+    }
+  }
+  
+  .item-info p, .seller-info p {
+    margin: 10px 0;
+  }
+
+.add-to-cart-button,.view-cart-button{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 300px;  
+  width: 200px;
+
+}
